@@ -1,5 +1,8 @@
 <!DOCTYPE HTML>
-<html><head><script>
+<html>
+<head>
+<meta name="robots" content="noindex">
+<script>
 var links={
 	1:'https://nsweducation.zoom.us/j/61670874357?pwd=V1NhVm9PMENuMjcvV3BMRGl2OWJIdz09',
     	2:'https://nsweducation.zoom.us/j/61369868987?pwd=MjVxeTJHdnl0Y2VTWlVzTXVYQlpjdz09',
@@ -7,9 +10,10 @@ var links={
     	5:'https://nsweducation.zoom.us/j/66754313463?pwd=eFRCUlI3UnRUNXlUSTBUVm5zVUdkUT09',
     	"-1":'https://www.memecenter.com/fun/981978/no-physics-today'
 };
-
 var d = new Date();
-var n = d.getDay();
+var n = 1//d.getDay();
 var link = (n in links ? links[n] : links[-1]);
 window.location.assign(link);
-</script></head></html>
+</script>
+</head>
+</html>
