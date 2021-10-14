@@ -11,7 +11,7 @@ var links={
     	"-1":'https://www.memecenter.com/fun/981978/no-physics-today'
 };
 var d = new Date();
-var n = 1//d.getDay();
+var n = d.getDay();
 var link = (n in links ? links[n] : links[-1]);
 window.location.assign(link);
 </script>
